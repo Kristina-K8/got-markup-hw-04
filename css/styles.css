@@ -459,18 +459,25 @@ img {
   color: #f4f4fd;
 }
 
+.footer-one-div {
+  margin-right: 120px;
+}
+
 .social-media {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-  max-width: 94px;
 }
 
 .social-list {
   display: flex;
   gap: 16px;
+}
+
+.social-content {
+  display: flex;
+  align-items: baseline;
 }
